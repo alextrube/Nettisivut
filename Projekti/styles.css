@@ -1,77 +1,71 @@
 body {
- background-color: #06cdeb;
- margin: 8%;
- font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-@media screen and (min-width: 940px) {
- #startShop, #startService, #startContacts {
- text-shadow: .1em .1em .1em rgb(35, 245, 7);
- }
-}
-
-@media screen and (min-width: 940px) {
- body {
-   background-image: url();
- }
-}
-
-@media screen and (min-width: 940px) {
- layout {
- display: grid;
- grid-template-rows: 3em 20px [main-start] 150px auto 5em [main-end];
- margin-left: 5%;
- margin-right: 5%;
-   display: grid;
- grid-template-rows: 3em 20px [main-start] 150px 300px 5em [main-end];
- grid-template-columns: [main-start] 1fr [main-end] repeat(3, 20px 150px);
- }
-}
-
-.navi {
- text-transform: uppercase;
-}
-
-h1  {
- text-align: left;
- color: #fcf9f9;
- font-size: 3cm;
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- font-weight: normal;
- text-transform: uppercase;
- border-bottom: 10px solid rgb(35, 245, 7) ; 
-}
-
-h2  {
- color: #fcf9f9;
- font-size: 4em;
-}
-
-h3  {
- color: #fcf9f9;
- font-size: 1em;
-}
-
-h4  {
- color: #fcf9f9;
- font-size: 1em;
-}
-
-h4 a {
- color: #fcf9f9;
- font-size: 1em;
-}
-
-ul a {
- color: #fcf9f9;
-}
-
-li {
- color: #fcf9f9;
-}
-
-p  {
- color: #fcf9f9;
- font-size: 2em;
- background-color: #030303;
-}
+    background-color: #06cdeb;
+    margin: 8%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+   }
+   
+   @media screen and (min-width: 940px) {
+    body {
+      background-image: url();
+    }
+   }
+   
+   @media screen and (min-width: 940px) {
+    layout {
+    display: grid;
+    grid-template-rows: 3em 20px [main-start] 150px auto 5em [main-end];
+    margin-left: 5%;
+    margin-right: 5%;
+      display: grid;
+    grid-template-rows: 3em 20px [main-start] 150px 300px 5em [main-end];
+    grid-template-columns: [main-start] 1fr [main-end] repeat(3, 20px 150px);
+    }
+   }
+   
+   .navi {
+    text-transform: uppercase;
+   }
+   
+   h1  {
+    text-align: left;
+    color: #fcf9f9;
+    font-size: 3cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    border-bottom: 10px solid rgb(35, 245, 7) ; 
+   }
+   
+   h2  {
+    color: #fcf9f9;
+    font-size: 4em;
+   }
+   
+   h3  {
+    color: #fcf9f9;
+    font-size: 1em;
+   }
+   
+   h4  {
+    color: #fcf9f9;
+    font-size: 1em;
+   }
+   
+   h4 a {
+    color: #fcf9f9;
+    font-size: 1em;
+   }
+   
+   ul a {
+    color: #fcf9f9;
+   }
+   
+   li {
+    color: #fcf9f9;
+   }
+   
+   p  {
+    color: #fcf9f9;
+    font-size: 2em;
+    background-color: #d650f5;
+   }
+   
