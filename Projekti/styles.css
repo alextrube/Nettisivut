@@ -4,13 +4,13 @@ body {
  font-family: Georgia, 'Times New Roman', Times, serif
 }
    
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 480px ), (max-width: 1200px) {
   #startMikäonMyONE, #startMiksiMyONE, #startKenelle, #startYhteystiedot, #startHinnasto, #startVerkkokauppa {
   text-shadow: .1em .1em .1em rgb(162, 68, 191) ;
   }
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 480px), (max-width: 1200px) {
   body {
     background-image: url(tausta.jpg);
   }
@@ -41,10 +41,20 @@ h1  {
   text-shadow: .1em .1em .1em rgb(162, 68, 191) ;
   border-bottom: 10px solid rgb(249, 246, 248) ; 
 }
+
+h1 a {
+  text-align: left;
+  color: #fcf9f9;
+  font-size: 2.5cm;
+  font-family: inherit;
+  font-weight: bolder;
+  text-shadow: .1em .1em .1em rgb(162, 68, 191) ;
+  border-bottom: 10px solid rgb(249, 246, 248) ; 
+}
    
 h2  {
   color: #fcf9f9;
-  font-size: 5em;
+  font-size: 4.5em;
 }
    
 h3  {
@@ -60,7 +70,7 @@ h4  {
 h4 a {
   color: #fcf9f9;
   font-size: 1em;
-  
+  background-color: #a244bf;
   text-shadow: .1em .1em .1em rgb(162, 68, 191) ;
 }
    
